@@ -1,0 +1,44 @@
+.bg-div1 {
+	background-color: #890606;
+	height: 100vh;
+}
+.bg-div2 {
+	background-color: #680707;
+	height: 100vh;
+}
+.txt-divs{
+	color: #e5e5e5;
+	margin-top: 4.5em;
+}
+.img-divs{
+	margin-top: 1.5em;
+}
+
+.bg-div1:hover{
+	background-color: #b71c1c;
+}
+
+.bg-div2:hover{
+	background-color: #b71c1c;
+}
+
+.bg-footer{
+	background-color: #2d2d2d;
+}
+.serv-avulso-txt{
+	text-transform: uppercase;
+	color: #890606;
+}
+.txt-serv{
+	color: #890606;	
+}
+.btn-avulso{
+	background-color: #890606;
+	margin-bottom: 3.5%;
+}
+.btn-avulso:hover{
+	background-color: #b71c1c;
+}
+.icon-color{
+	color: #be1623;
+}

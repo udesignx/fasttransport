@@ -1,0 +1,76 @@
+$(document).ready(function(){
+    $("#show-avulso").click(function(){
+        $("#avulso").show();
+        $("#sobre").hide();
+        $("#dedicado").hide();
+        $("#parceiros").hide();
+        $("#contato").hide();
+        $("#geral").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#show-dedicado").click(function(){
+        $("#dedicado").show();
+        $("#avulso").hide();
+        $("#sobre").hide();
+        $("#parceiros").hide();
+        $("#contato").hide();
+        $("#geral").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#show-sobre").click(function(){
+        $("#sobre").show();
+        $("#avulso").hide();
+        $("#dedicado").hide();
+        $("#parceiros").hide();
+        $("#contato").hide();
+        $("#geral").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#show-parceiros").click(function(){
+        $("#parceiros").show();
+        $("#avulso").hide();
+        $("#sobre").hide();
+        $("#dedicado").hide();
+        $("#contato").hide();
+        $("#geral").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#show-contato").click(function(){
+        $("#contato").show();
+        $("#parceiros").hide();
+        $("#avulso").hide();
+        $("#sobre").hide();
+        $("#dedicado").hide();
+        $("#geral").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#show-inicio").click(function(){
+        $("#contato").hide();
+        $("#parceiros").hide();
+        $("#avulso").hide();
+        $("#sobre").hide();
+        $("#dedicado").hide();
+        $("#geral").show();
+    });
+});
+
+$(document).ready(function(){
+    $("#show-servicos").click(function(){
+        $("#contato").hide();
+        $("#parceiros").hide();
+        $("#avulso").show();
+        $("#sobre").hide();
+        $("#dedicado").show();
+        $("#geral").hide();
+    });
+});

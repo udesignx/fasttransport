@@ -1,0 +1,136 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Import Edit-->
+      <link href="css/edit.css" rel="stylesheet" type="text/css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+    <!--Fixed Navbar Desktop-->
+  <div class="navbar-fixed">
+  <header>
+  <nav>
+      <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center"><img src="img/logo-navbar.png"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="flow-text"> (19) 3367-4783</a></li>
+      </ul>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="/" class="flow-text" id="show-inicio">Início</a></li>
+        <li><a href="/sobre.html" class="flow-text" id="show-sobre">Empresa</a></li>
+        <li><a href="/servicos.html" class="flow-text" id="show-servicos">Serviços</a></li>
+        <li><a href="/parceiros.html" class="flow-text" id="show-parceiros">Parceiros</a></li>
+        <li><a href="/contato.html" class="flow-text" id="show-contato">Contato</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="/">Início</a></li>
+        <li><a href="/sobre.html" id="show-sobre">Empresa</a></li>
+        <li><a href="/servicos.html">Serviços</a></li>
+        <li><a href="/parceiros.html" id="show-parceiros">Parceiros</a></li>
+        <li><a href="/contato.html" id="show-contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+  </div>
+
+
+      <!--Contato-->
+  <div id="contato" class="row center-align" style="display: none;">
+    <h2 class="center-align txt-serv">Contato</h2>
+    <h4 class="center-align">Venha tomar um café com a gente e nos conhecer pessoalmente!</h4>
+    <div class="col s12 m12 l12"><img class="responsive-img" src="img/selo.png"></div>
+    <div class="col s12 m12 l12 center-align">
+      <p class="flow-text">Rua Barreiro, N. 60, Ponte Preta, Campinas-SP</p>
+      <p class="flow-text">adm@fasttransport.com.br</p>
+      <p class="flow-text">(19)33674783</p>
+    </div>
+  
+   <div class="container">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+            <i class="material-icons prefix">person</i>
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">Nome</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input placeholder="DDD + Número" id="telefone" type="text" class="validate">
+              <label for="telefone">Telefone</label>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mail</i>
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="input-field col s12">
+          <i class="material-icons prefix">sms</i>
+            <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+            <label for="textarea1">Deixe sua mensagem</label>
+          </div>
+        </div>
+            <div class="row center">
+              <button class="btn-large btn-avulso waves-effect waves-light" type="submit" name="action">Enviar mensagem
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+
+        </form>
+      </div>
+  </div>
+</div>
+  
+
+    <!--Footer-->
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Fast Transport</h5>
+                <img src="img/selo.png" class="responsive-img">
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contatos</h5>
+                <ul>
+                  <li><h6 class="grey-text text-lighten-3 flow-text" style="display: inline-flex;" href="#!">
+                  <i class="small material-icons icon-color">email</i>&nbsp;adm@fasttransport.com.br</h6></li>
+                  <li><h6 class="grey-text text-lighten-3 flow-text" style="display: inline-flex;" href="#!">
+                  <i class="small material-icons icon-color">store</i>&nbsp;R. Barreiro, Nr.60, Ponte Preta, Campinas-SP</h6></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            <a class="grey-text text-lighten-4 left" href="udesignx.com">Site desenvolvido por UdesignX em 2017</a>
+            </div>
+          </div>
+        </footer>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/hide_show.js"></script>
+      <script type="text/javascript">        
+        $(".button-collapse").sideNav();
+      </script>
+    </body>
+  </html>
