@@ -42,3 +42,24 @@
 .icon-color{
 	color: #be1623;
 }
+.hd-max{
+width: auto;
+max-height: 92px;
+}
+.btn-dedicado{
+	background-color: #890606;
+}
+.btn-dedicado:hover{
+	background-color: #b71c1c;
+}
+.card .card-image .card-title-edited {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	padding: 24px;
+	background-color: #890606;
+	}
+.txt-dedicado{
+	color: white;	
+}
